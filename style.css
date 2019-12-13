@@ -1,0 +1,149 @@
+@import url('https://fonts.googleapis.com/css?family=Dancing+Script:400,600,700|Playfair+Display:400,700,900&display=swap');
+
+/* font-family: 'Dancing Script', cursive;
+font-family: 'Playfair Display', serif; */
+
+
+body {
+    margin: 0px;
+    background-color: #acad62;
+}
+
+/* HEADER/NAVIGATION */
+
+header {
+    background-color: #ffffff;
+}
+
+.logo-img {
+    height: 100px;
+    width: 100px;
+    margin: auto;
+}
+
+.link {
+    display: flex;
+}
+
+/* MAIN */
+
+main {
+    width: 100%;
+}
+
+section {
+    width: 100%;
+}
+
+/* About */
+
+.dominique {
+    height: 355px;
+    width: 343px;
+    display: block;
+    margin: auto;
+}
+
+.about-photo, .about-bio {
+    width: 48%;
+    float: left;
+}
+
+.about-photo {
+    padding-top: 3%;
+}
+
+.about-bio p {
+    font-family: 'Playfair Display', serif;
+}
+
+/* Intro */
+
+.intro {
+    text-align: center;
+}
+
+.intro h1 {
+    padding-top: 2%;
+}
+
+h1, h2 {
+    font-family: 'Playfair Display', serif;
+    
+}
+
+/* Assets */
+
+.asset {
+    width: 48%;
+    float: left;
+    padding-bottom: 2%;
+}
+
+.asset h3, p {
+    text-align: center;
+    font-family: 'Playfair Display', serif;
+}
+
+form {
+    margin-left: 4%;
+}
+
+.moodboard {
+    height: 200px;
+    width: 200px;
+    display: block;
+    margin: auto;
+}
+
+.branding-guide {
+    height: 250px;
+    width: 200px;
+    display: block;
+    margin: auto;
+}
+
+.business-card {
+    height: 250px;
+    width: 200px;
+    display: block;
+    margin: auto;
+}
+
+.letterhead {
+    height: 250px;
+    width: 200px;
+    display: block;
+    margin: auto;
+}
+
+.clear {
+    float: clear;
+}
+
+.thank-you-card {
+    height: 389px;
+    width: 200px;
+    display: block;
+    margin: auto;
+}
+
+/* FOOTER */
+
+footer {
+    height: 100px;
+    width: 100%;
+    margin-top: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    background-color: #fff;
+    font-family: 'Playfair Display', serif;
+    font-size: 18px;
+}
+
+.phone, .email, .website {
+    margin: auto;
+}
