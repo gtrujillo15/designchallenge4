@@ -3,10 +3,18 @@
 /* font-family: 'Dancing Script', cursive;
 font-family: 'Playfair Display', serif; */
 
+.intro, .about {
+    background-color: #acad62;
+}
+
+.about {
+    height: 550px;
+    width: 100%;
+}
 
 body {
     margin: 0px;
-    background-color: #acad62;
+    /* background-color: #acad62; */
 }
 
 /* HEADER/NAVIGATION */
@@ -60,6 +68,8 @@ section {
 /* Intro */
 
 .intro {
+    height: 150px;
+    width: 100%;
     text-align: center;
 }
 
@@ -74,6 +84,12 @@ h1, h2 {
 
 /* Assets */
 
+.assets {
+    height: 220vh;
+    width: 100%;
+    background-color: #f3efea;
+}
+
 .asset {
     width: 48%;
     float: left;
@@ -86,7 +102,7 @@ h1, h2 {
 }
 
 form {
-    margin-left: 4%;
+    margin-left: 36%;
 }
 
 .moodboard {
@@ -115,10 +131,6 @@ form {
     width: 200px;
     display: block;
     margin: auto;
-}
-
-.clear {
-    float: clear;
 }
 
 .thank-you-card {
