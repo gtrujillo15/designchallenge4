@@ -1,25 +1,14 @@
 @import url('https://fonts.googleapis.com/css?family=Dancing+Script:400,600,700|Playfair+Display:400,700,900&display=swap');
 
-/* font-family: 'Dancing Script', cursive;
-font-family: 'Playfair Display', serif; */
-
-.intro, .about {
-    background-color: #acad62;
-}
-
-.about {
-    height: 550px;
-    width: 100%;
-}
-
 body {
     margin: 0px;
-    /* background-color: #acad62; */
 }
 
 /* HEADER/NAVIGATION */
 
 header {
+    height: 30vh;
+    width: 100%;
     background-color: #ffffff;
 }
 
@@ -31,19 +20,29 @@ header {
 
 .link {
     display: flex;
+    padding-top: 1%;
 }
+
+h1, h2 {
+    text-align: center;
+    font-family: 'Playfair Display', serif;
+}
+
 
 /* MAIN */
 
 main {
-    width: 100%;
-}
-
-section {
+    height: 280vh;
     width: 100%;
 }
 
 /* About */
+
+.about {
+    height: 80vh;
+    width: 100%;
+    background-color: #95954c;
+}
 
 .dominique {
     height: 355px;
@@ -63,23 +62,6 @@ section {
 
 .about-bio p {
     font-family: 'Playfair Display', serif;
-}
-
-/* Intro */
-
-.intro {
-    height: 150px;
-    width: 100%;
-    text-align: center;
-}
-
-.intro h1 {
-    padding-top: 2%;
-}
-
-h1, h2 {
-    font-family: 'Playfair Display', serif;
-    
 }
 
 /* Assets */
@@ -140,14 +122,17 @@ form {
     margin: auto;
 }
 
+.last {
+    width: 100%;
+    margin: auto;
+}
+
 /* FOOTER */
 
 footer {
     height: 100px;
     width: 100%;
-    margin-top: 0px;
-    margin-left: 0px;
-    margin-right: 0px;
+    margin: 0px;
     display: flex;
     flex-direction: row;
     text-align: center;
